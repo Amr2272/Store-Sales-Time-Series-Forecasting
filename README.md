@@ -89,7 +89,7 @@ MLflow Integration: Directly fetches predictions from MLflow runs and compares a
 ```
 .
 ├── Live Demo/
-│   └── Final Project.rar       # Complete project package (MLflow + DVC + Streamlit)
+│   └── Store Sales Forecasting.rar       # Complete project package (MLflow + DVC + Streamlit)
 ├── data/                        # Raw input files (train, test, holidays, etc.) in Origin Data.zip , Clean Data in Data_cleaned.zip
 ├── models/                      # Serialized models (.pkl files)
 ├── proposal/                    # Project proposal documents
@@ -121,13 +121,13 @@ MLflow Integration: Directly fetches predictions from MLflow runs and compares a
 ### **Step 1: Extract the Live Demo Package**
 
 1. Navigate to the `Live Demo/` folder
-2. Extract `Final Project.rar` to `D:\Final Project`
+2. Extract `Store Sales Forecasting.rar`
 3. The extracted folder contains the complete MLflow, DVC, and Streamlit setup
 
 ### **Step 2: Navigate to Project Directory**
 
 ```bash
-cd "D:\Final Project"
+cd "Store Sales Forecasting"
 ```
 
 ### **Step 3: Install Dependencies**
@@ -170,7 +170,7 @@ mlflow ui --backend-store-uri sqlite:///D:/Final_Project/mlflow_project/mlflow.d
 
 ### **Quick Start (Recommended)**
 
-After extracting to `D:\Final Project`, simply run:
+After extracting to `Store Sales Forecasting`, simply run:
 
 ```bash
 streamlit run main.py
@@ -296,7 +296,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements.
 
-1. Amr Ashraf
+1. Amr Ashraf  ("`Leader Team`")
 2. Mostafa Mohammed
 3. Fares Mahmoud
 4. Radwa Amr
